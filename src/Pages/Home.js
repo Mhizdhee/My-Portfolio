@@ -4,6 +4,7 @@ import "../Styles/Home.css";
 import Skills from "../Pages/Skills";
 import Project from "../Pages/Project";
 import Contact from "../Pages/Contact";
+import Footer from "../Pages/Footer";
 
 const Home = () => {
   return (
@@ -46,6 +47,7 @@ const Home = () => {
       <section id="contact">
         <Contact />
       </section>
+      <Footer />
     </>
   );
 };
