@@ -1,0 +1,260 @@
+.project-container{
+    background-color: rgb(20, 18, 18);
+    padding: 20px;
+
+}
+
+.project-container h2{
+    width: 70%;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+
+.card1{
+    padding: 40px;
+    background-color:rgb(14, 13, 13);
+    width: 40%;
+    margin:50px ;
+    border-radius: 20px;
+}
+.card1 img{
+width: 100%;
+}
+.card1 .title{
+    width: 70%;
+}
+.card1 p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.links  a{
+    text-decoration: none;
+    color: white;
+    /* background-color: steelblue; */
+    /* padding: 10px; */
+}
+
+button{
+padding: 10px;
+background-color: steelblue;
+margin: 10px;
+font-weight:700 ;
+font-size: 18px;
+border: none;
+border-radius: 10px;
+}
+
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid steelblue;
+}
+
+.btttn{
+padding: 10px;
+background-color: transparent;
+margin: 10px;
+font-weight:700 ;
+font-size: 18px;
+border: 2px solid steelblue;
+border-radius: 10px;
+}
+.btttn:hover{
+    background-color: steelblue;
+    border: none;
+}
+
+/* card 2 */
+.card2{
+    padding: 40px;
+    background-color:rgb(14, 13, 13);
+    width: 40%;
+    margin:50px ;
+    border-radius: 20px;
+}
+.card2 img{
+width: 100%;
+}
+.card2 .title{
+    width: 70%;
+}
+.card2 p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* card 3 */
+
+.card3{
+    padding: 40px;
+    background-color:rgb(14, 13, 13);
+    width: 40%;
+    margin:50px ;
+    border-radius: 20px;
+}
+.card3 img{
+width: 100%;
+}
+.card3 .title{
+    width: 70%;
+}
+.card3 p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* card 4 */
+
+.card4{
+    padding: 40px;
+    background-color:rgb(14, 13, 13);
+    width: 40%;
+    margin:50px ;
+    border-radius: 20px;
+}
+.card4 img{
+width: 100%;
+}
+.card4 .title{
+    width: 70%;
+}
+.card4 p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+/* card 5 */
+
+.card5{
+    padding: 40px;
+    background-color:rgb(14, 13, 13);
+    width: 40%;
+    margin:50px ;
+    border-radius: 20px;
+}
+.card5 img{
+width: 100%;
+}
+.card5 .title{
+    width: 70%;
+}
+.card5 p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* card 6 */
+.card6{
+    padding: 40px;
+    background-color:rgb(14, 13, 13);
+    width: 40%;
+    margin:50px ;
+    border-radius: 20px;
+}
+.card6 img{
+width: 100%;
+}
+.card6 .title{
+    width: 70%;
+}
+.card6 p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+/* card 7*/
+.card7{
+    padding: 40px;
+    background-color:rgb(14, 13, 13);
+    width: 40%;
+    margin:50px ;
+    border-radius: 20px;
+}
+.card7 img{
+width: 100%;
+}
+.card7 .title{
+    width: 70%;
+}
+.card7 p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* card 8 */
+.card8{
+    padding: 40px;
+    background-color:rgb(14, 13, 13);
+    width: 40%;
+    margin:50px ;
+    border-radius: 20px;
+}
+.card8 img{
+width: 100%;
+}
+.card8 .title{
+    width: 70%;
+}
+.card8 p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* card 9 */
+.card9{
+    padding: 40px;
+    background-color:rgb(14, 13, 13);
+    width: 40%;
+    margin:50px ;
+    border-radius: 20px;
+}
+.card9 img{
+width: 100%;
+}
+.card9 .title{
+    width: 70%;
+}
+.card9 p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* card 10*/
+.card10{
+    padding: 40px;
+    background-color:rgb(14, 13, 13);
+    width: 40%;
+    margin:50px ;
+    border-radius: 20px;
+}
+.card10 img{
+width: 100%;
+}
+.card10 .title{
+    width: 70%;
+}
+.card10 p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
