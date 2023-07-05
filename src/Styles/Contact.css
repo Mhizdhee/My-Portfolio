@@ -45,7 +45,7 @@ textarea::placeholder{
     padding: 10px;
     font-size: 18px;
 }
-button{
+.buttton{
     color: white;
     margin: auto 30%;
     padding: 10px;

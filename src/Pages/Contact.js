@@ -92,7 +92,9 @@ const Contact = () => {
               value={formik.values.message}
             />
 
-            <button type="submit">Send</button>
+            <button className="buttton" type="submit">
+              Send
+            </button>
           </form>
         </div>
       </div>
