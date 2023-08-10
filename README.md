@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+This portfolio was built using React, Aos Animation for the animations and Formik for the contact me page.
+
+Below is the link to the readme file::
+https://my-portfolio-phi-liart.vercel.app/Home.js
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
