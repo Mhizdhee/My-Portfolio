@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MyPic from "../Images/myimg.jpg";
+import MyPic from "../Images/Dheee.jpg";
 import MyCv from "../Images/Mycv.pdf";
 import "../Styles/About.css";
 

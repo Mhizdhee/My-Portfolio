@@ -167,7 +167,7 @@ li:hover {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    position: fixed;
+    position: absolute;
     height: 80px;
     padding: 30px;
   }
@@ -199,7 +199,7 @@ li:hover {
 
   .nav-links ul {
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     margin: 0;
     padding: 0;
    
