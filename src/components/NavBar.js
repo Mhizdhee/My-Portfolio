@@ -3,7 +3,7 @@ import "../Styles/NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-function NavBar() {
+const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -54,6 +54,6 @@ function NavBar() {
       </div>
     </>
   );
-}
+};
 
 export default NavBar;

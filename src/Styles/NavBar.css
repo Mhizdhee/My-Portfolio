@@ -187,9 +187,10 @@ li:hover {
   .navigation{
     
   position: absolute;
-  top: 100%; /* Position the navigation container below the container */
+  top: 100%;
   right: 0;
   display: none;
+  width: 100%;
   }
 
   .navigation.show {
@@ -199,8 +200,19 @@ li:hover {
   .nav-links ul {
     flex-direction: column;
     align-items: flex-start;
+    margin: 0;
+    padding: 0;
    
   }
+
+  .nav-links a {
+    /* ... other styles ... */
+    padding: 10px 20px; 
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+
+ 
 
 
 }
