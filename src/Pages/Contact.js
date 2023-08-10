@@ -42,7 +42,7 @@ const Contact = () => {
     <>
       <div className="contact-container">
         <h2>Get In Touch</h2>
-        <div className="form">
+        <div className="form" data-aos="zoom-in">
           <form onSubmit={formik.handleSubmit}>
             <input
               id="firstName"

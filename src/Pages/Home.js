@@ -29,8 +29,13 @@ const Home = () => {
             data-aos-easing="linear"
             data-aos-duration="1500"
           >
-            <button className="btn">Projects</button>
-            <button className="bttn">Contact Me</button>
+            <a className="anc" href="#project">
+              Projects
+            </a>
+
+            <a className="anch" href="#contact">
+              Contact Me
+            </a>
           </div>
         </div>
       </div>

@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import MyPic from "../Images/myimg.jpg";
 import MyCv from "../Images/Mycv.pdf";
-// import { Document, Page } from "react-pdf";
-// import { Document, Page } from "react-pdf/dist/esm/entry.noworker";
-// import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-
 import "../Styles/About.css";
 
 const About = () => {
@@ -12,16 +8,10 @@ const About = () => {
   const [showItem, setShowItem] = useState(false);
 
   const handleClick = () => {
-    setShowItem(!showItem); // Toggle the showItem state value
+    const url = MyCv;
+    window.open(url, "_blank");
   };
-
-  //To display pdf as image
-
-  // const pdfUrl = { MyCv };
-  // const [numPages, setNumPages] = useState(null);
-
-  // const onDocumentLoadSuccess = ({ numPages }) => {
-  //   setNumPages(numPages);
+  //   setShowItem(!showItem); // Toggle the showItem state value
   // };
 
   return (
@@ -64,19 +54,6 @@ const About = () => {
         <button className="btton" onClick={handleClick}>
           View CV
         </button>
-        {showItem && (
-          <div>
-            <object
-              width="100%"
-              height="400"
-              data={MyCv}
-              type="application/pdf"
-            ></object>
-            {/* <Document file={MyCv} onLoadSuccess={onDocumentLoadSuccess}>
-              <Page pageNumber={1} />
-            </Document> */}
-          </div>
-        )}
       </div>
     </div>
   );

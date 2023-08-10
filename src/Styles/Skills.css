@@ -93,3 +93,34 @@ h2{
 
 }
 
+/* Media query for mobile devices */
+
+@media only screen and (max-width: 600px) {
+    .headn h2{
+        background-color:black ;
+    }
+  .skill-section {
+  display: block;
+  height: 200%;
+  }
+
+  .skills {
+/* display: block; */
+width: 85%;
+margin: 10%;
+}
+
+  .skills img {
+    /* Add your mobile-specific styles for the skill images here */
+  }
+
+  .skills p {
+    /* Add your mobile-specific styles for the skill captions here */
+  }
+}
+
+
+
+
+
+

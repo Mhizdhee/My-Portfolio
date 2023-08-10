@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <>
       <div>
-        <h2>My Skills</h2>
+        <h2 className="headn">My Skills</h2>
 
         <div
           className="skill-section"

@@ -39,6 +39,7 @@ input::placeholder{
     margin: 10px;
     background-color: rgb(39, 37, 37);
     box-shadow: 2px 3px black;
+    color: white;
 }
 
 textarea::placeholder{
@@ -52,3 +53,21 @@ textarea::placeholder{
     width: 20%;
     
 }
+
+@media only screen and (max-width: 600px) {
+.contact-container h2{
+    width: 100vw ;
+}
+
+.form{
+    width:100vw;
+    margin: 20px;
+}
+
+
+
+}
+
+
+
+

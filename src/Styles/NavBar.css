@@ -1,4 +1,4 @@
-
+/* 
 
 .container{
     display: flex;
@@ -64,3 +64,269 @@ a:hover{
 
 
 /* Media Query */
+
+/* @media (max-width: 767px) {
+    .logo h3{
+       flex-direction: column;
+    }
+.nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    
+  } */
+
+  /* .nav-links {
+    margin-top: 10px;
+  } */
+
+  /* ul{
+    flex-direction: column;
+    align-items: flex-end;
+  }
+} */ 
+
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+
+.logo {
+  padding: 20px;
+}
+
+.logo h3 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: cursive;
+  color: white;
+  box-shadow: 0 3px 5px steelblue;
+  text-shadow: 2px 2px steelblue;
+}
+
+h3 span {
+  color: rgb(94, 177, 245);
+  font-family: cursive;
+}
+
+.hamburger{
+    display: none;
+}
+
+/* .navigation{
+  display: none;
+}
+.navigation.show {
+  display: block;
+} */
+
+
+.nav-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+}
+
+a:hover {
+  color: rgb(94, 177, 245);
+}
+
+.nav-links li {
+  list-style: none;
+  padding: 10px;
+}
+
+li:hover {
+  cursor: pointer;
+  border-bottom: 3px solid aliceblue;
+  transition: 0.5s;
+}
+
+
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    height: 80px;
+    padding: 30px;
+  }
+
+  .logo h3 {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+
+  .hamburger{
+    display: block;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .navigation{
+    
+  position: absolute;
+  top: 100%; /* Position the navigation container below the container */
+  right: 0;
+  display: none;
+  }
+
+  .navigation.show {
+  display: block;
+}
+
+  .nav-links ul {
+    flex-direction: column;
+    align-items: flex-start;
+   
+  }
+
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    height: 80px;
+    padding: 30px;
+  }
+
+  .logo h3 {
+    font-size: 24px;
+    
+  }
+
+  .hamburger{
+    display: block;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .navigation{
+    
+  position: absolute;
+  top: 100%; Position the navigation container below the container */
+  /* right: 0;
+  display: none;
+  }
+
+  .navigation.show {
+  display: block;
+}
+
+  .nav-links ul {
+    flex-direction: column;
+    align-items: flex-start;
+   
+  } */
+
+
+/* } */
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) { */
+/* .container{
+  display: flex; */
+  /* flex-direction: row; */
+ /* justify-content: space-between;
+  align-items: center; */
+  /* position: sticky; */
+/* } */
+/* ================== */
+  /* .logo h3 {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+
+  .hamburger{
+    display: none;
+    
+  }
+
+  .navigation {
+  display: flex;  */
+  /* ================ */
+  /* align-items: center; */
+  /* margin-bottom: 30px; */
+  
+/* } */
+/* 
+.navigation.show {
+  display: block;
+}
+
+
+
+  .nav-links ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin:0;
+    padding: 0;
+  }
+
+  .nav-links li {
+    margin-right: 20px;
+  } */
+
+
+ /* }  */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+.hamburger{
+  display: none;
+}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.hamburger{
+  display: none;
+}
+
+
+}
+
+
+
+
+/* Media Query */
+@media (max-width: 600px) {
+  
+}
+
+@media screen and (min-width: 601px) and (max-width:800px) {
+.nav-links{
+  width:50%;
+}
+}
+
+
+
+

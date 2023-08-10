@@ -42,5 +42,12 @@ footer p{
     transition: .3s;
 }
 
+ @media only screen and (max-width: 600px) {
+footer p{
+    width: 80vw;
+    padding: 20px;
+    text-align: center;
+}
 
+ }
 

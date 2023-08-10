@@ -258,3 +258,127 @@ width: 100%;
     font-size: 20px;
     padding: 10px;
 }
+
+/* card 11 */
+.card11{
+    padding: 40px;
+    background-color:rgb(14, 13, 13);
+    width: 40%;
+    margin:50px ;
+    border-radius: 20px;
+}
+.card11 img{
+width: 100%;
+}
+.card11 .title{
+    width: 70%;
+}
+.card11 p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+
+
+ @media only screen and (max-width: 600px) {
+ .project-container h2{
+width: 100vw;
+ }
+ 
+    .card1{
+    width: 100vw;
+ }
+
+ .card1 .title{
+    width: 70vw;
+    font-size: 20px;
+ }
+
+ .card2{
+    width: 100vw;
+ }
+
+ .card2 .title{
+    width: 70vw;
+    font-size: 20px;
+ }
+
+ .card3{
+    width: 100vw;
+ }
+
+ .card3 .title{
+    width: 70vw;
+    font-size: 20px;
+ }
+
+ .card4{
+    width: 100vw;
+ }
+
+ .card4 .title{
+    width: 70vw;
+    font-size: 20px;
+ }
+
+ .card5{
+    width: 100vw;
+ }
+
+ .card5 .title{
+    width: 70vw;
+    font-size: 20px;
+ }
+
+ .card6{
+    width: 100vw;
+ }
+
+ .card6 .title{
+    width: 70vw;
+    font-size: 20px;
+ }
+
+ .card7{
+    width: 100vw;
+ }
+
+ .card7 .title{
+    width: 70vw;
+    font-size: 20px;
+ }
+
+.card8{
+    width: 100vw;
+ }
+
+ .card8 .title{
+    width: 70vw;
+    font-size: 20px;
+ }
+ .card9{
+    width: 100vw;
+ }
+
+ .card9 .title{
+    width: 70vw;
+    font-size: 20px;
+ }
+ .card10{
+    width: 100vw;
+ }
+
+ .card10 .title{
+    width: 70vw;
+    font-size: 20px;
+ }
+.card11{
+    width: 100vw;
+}
+ .card11 .title{
+    width: 70vw;
+    font-size: 20px;
+ }
+}

@@ -8,14 +8,7 @@
   
 }
 
-/* .hero-bg{
-  background-image: url("Images/laptopimg.jpg");
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size: cover;
-  background-color: rgba(0, 0, 0,0.60);
-  background-blend-mode:overlay ;
-} */
+
 
 .text{
     padding: 20px;
@@ -35,7 +28,7 @@ h1{
     font-size: 30px;
 }
 
-.buttons button {
+/* .buttons button {
     
     padding: 20px;
     font-size: 18px;
@@ -43,29 +36,90 @@ h1{
     border-radius: 20px;
     margin: 20px;
     /* background-color: steelblue; */
-}
-
- .btn{
+/* }  */
+/* 
+ .btn {
     color:rgb(94, 177, 245);
     background-color: transparent;
     border: 2px solid rgb(94, 177, 245);
     
+} */
+
+
+
+.anc {
+    color:rgb(94, 177, 245);
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid rgb(94, 177, 245);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 20px;
+
 }
 
-.btn:hover{
+ .anc:hover{
     cursor: pointer;
     background-color: rgb(94, 177, 245);
     color: white;
 }
 
-.bttn{
+.anch{
     background-color:rgb(94, 177, 245) ;
     color: white;
     border: none;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 20px;
+    text-decoration: none;
 }
 
-.bttn:hover{
+.anch:hover{
     background-color: transparent;
     color: rgb(94, 177, 245);
     border: 2px solid rgb(94, 177, 245);
 }
+
+
+/* media Query */
+@media only screen and (max-width: 600px) {
+/* .hero{
+    line-height: 2;
+    } */
+
+.text{
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    /* background-color: red; */
+} 
+
+p{
+    font-size: 22px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 30px;
+}
+.role{
+    font-size: 20px;
+    padding: 10px;
+}
+.buttons{
+    padding: 15px;
+}
+
+.anc{
+    font-size: 16px;
+}
+.anch{
+    font-size: 16px;
+    margin: 10px;
+}
+}
+

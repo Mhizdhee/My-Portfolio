@@ -9,6 +9,7 @@ import Form from "../Images/Form.png";
 import ProfileSearch from "../Images/ProfileSearch.png";
 import Starwars from "../Images/Starwars.png";
 import ReactForm from "../Images/ReactForm.png";
+import SmartLend from "../Images/Smartlend.png";
 import "../Styles/Project.css";
 
 const Project = () => {
@@ -95,7 +96,7 @@ const Project = () => {
           >
             <img src={Udemy} alt="udemy" />
             <div>
-              <h2 className="title">Udemy Landing page</h2>
+              <h2 className="title">Udemy Landing page Clone</h2>
               <p>
                 Tech tools used: <em>HTML, CSS, Bootstrap</em>
               </p>
@@ -226,7 +227,7 @@ const Project = () => {
           >
             <img src={Form} alt="form" />
             <div>
-              <h2 className="title">Form Validation</h2>
+              <h2 className="title">Whogohost clone-Form Validation</h2>
               <p>
                 Tech tools used: <em>HTML, CSS, JS</em>
               </p>
@@ -344,6 +345,37 @@ const Project = () => {
               </button>
               <button className="btttn">
                 <a href="https://mycontactus-form.netlify.app/" target="_blank">
+                  Live Site
+                </a>
+              </button>
+            </div>
+          </div>
+          {/* eleventh card */}
+          <div
+            className="card11"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            <img src={SmartLend} alt="smartlend" />
+            <div>
+              <h2 className="title">Smartlend</h2>
+              <p>
+                Tech tools used:
+                <em>React, Tailwind CSS,Formik,Flowbite,Chart.js</em>
+              </p>
+            </div>
+            <div className="links">
+              <button>
+                <a
+                  href="https://github.com/Busybeebee11/smartlend-app.git"
+                  target="_blank"
+                >
+                  GITHUB
+                </a>
+              </button>
+              <button className="btttn">
+                <a href="https://smartlend-app.netlify.app/" target="_blank">
                   Live Site
                 </a>
               </button>
