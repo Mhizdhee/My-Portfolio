@@ -25,9 +25,9 @@ const Home = () => {
           </div>
           <div
             class="buttons"
-            data-aos="fade-down"
+            data-aos="zoom-out"
             data-aos-easing="linear"
-            data-aos-duration="1500"
+            data-aos-duration="500"
           >
             <a className="anc" href="#project">
               Projects

@@ -5,7 +5,9 @@
 }
 
 .project-container h2{
-    width: 70%;
+    /* width: 70%; */
+    color: aliceblue;
+    padding: 20px;
 }
 
 
@@ -382,3 +384,111 @@ width: 100vw;
     font-size: 20px;
  }
 }
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width:980px) {
+    .project-container{
+        width: 1000px;
+    }
+    
+    .project-container h2{
+   /* width: 100vw; */
+    }
+    
+       .card1{
+       width: 100vw;
+    }
+   
+    .card1 .title{
+       width: 70vw;
+       font-size: 20px;
+    }
+   
+    .card2{
+       width: 100vw;
+    }
+   
+    .card2 .title{
+       width: 70vw;
+       font-size: 20px;
+    }
+   
+    .card3{
+       width: 100vw;
+    }
+   
+    .card3 .title{
+       width: 70vw;
+       font-size: 20px;
+    }
+   
+    .card4{
+       width: 100vw;
+    }
+   
+    .card4 .title{
+       width: 70vw;
+       font-size: 20px;
+    }
+   
+    .card5{
+       width: 100vw;
+    }
+   
+    .card5 .title{
+       width: 70vw;
+       font-size: 20px;
+    }
+   
+    .card6{
+       width: 100vw;
+    }
+   
+    .card6 .title{
+       width: 70vw;
+       font-size: 20px;
+    }
+   
+    .card7{
+       width: 100vw;
+    }
+   
+    .card7 .title{
+       width: 70vw;
+       font-size: 20px;
+    }
+   
+   .card8{
+       width: 100vw;
+    }
+   
+    .card8 .title{
+       width: 70vw;
+       font-size: 20px;
+    }
+    .card9{
+       width: 100vw;
+    }
+   
+    .card9 .title{
+       width: 70vw;
+       font-size: 20px;
+    }
+    .card10{
+       width: 100vw;
+    }
+   
+    .card10 .title{
+       width: 70vw;
+       font-size: 20px;
+    }
+   .card11{
+       width: 100vw;
+   }
+    .card11 .title{
+       width: 70vw;
+       font-size: 20px;
+    }
+   }

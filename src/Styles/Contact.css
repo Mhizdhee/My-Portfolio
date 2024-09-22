@@ -5,6 +5,9 @@
     
 }
 
+.contact-container h2{
+    padding: 20px;
+}
 .form{
     
     color: white;
@@ -24,10 +27,14 @@
     width: 80%;
     background-color: rgb(39, 37, 37);
     box-shadow: 2px 3px black;
+    color: aliceblue;
+    font-size: 20px;
+    outline: none;
+
 }
 
 input::placeholder{
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 18px;
 }
 
@@ -40,10 +47,12 @@ input::placeholder{
     background-color: rgb(39, 37, 37);
     box-shadow: 2px 3px black;
     color: white;
+    outline: none;
+    font-size: 20px;
 }
 
 textarea::placeholder{
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 18px;
 }
 .buttton{
@@ -51,6 +60,7 @@ textarea::placeholder{
     margin: auto 30%;
     padding: 10px;
     width: 20%;
+    cursor: pointer;
     
 }
 
@@ -68,6 +78,20 @@ textarea::placeholder{
 
 }
 
+
+@media only screen and (min-width: 600px) and (max-width:980px){
+    .contact-container{
+        width: 1000px;
+    }
+    
+    .form{
+        
+        margin: auto;
+    }
+    
+    
+    
+    }
 
 
 

@@ -15,7 +15,7 @@ import "../Styles/Skills.css";
 const Skills = () => {
   return (
     <>
-      <div>
+      <div className="skill-container">
         <h2 className="headn">My Skills</h2>
 
         <div

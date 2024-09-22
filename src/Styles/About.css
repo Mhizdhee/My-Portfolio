@@ -1,97 +1,102 @@
-.About-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    /* background-color: rgb(27, 25, 25); */
-    background-image: linear-gradient( rgb(27,25,25),black);
-    height: 120vh;
+.About-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-image: linear-gradient(rgb(27, 25, 25), black);
+  height: 100vh;
 }
 
- .myimg{
-    /* background-repeat: no-repeat; */
-    width: 60%;
-    height: 60%;
-    border-radius: 50%;
-    padding: 30px;
-}
-.About-section .para{
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    line-height: 2;
-    
+.myimg {
+  width: 60%;
+  height: 70%;
+  border-radius: 50%;
+  padding: 30px;
 }
 
-
-.btton{
-    background-color:rgb(94, 177, 245) ;
-    color: white;
-    border: none;
-    padding: 20px;
-    border-radius: 15px;
-    font-size: 20px;
+.paragraphs {
+  padding: 0 20px;
+}
+.About-section .para {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  line-height: 2;
 }
 
-.btton:hover{
-    background-color: transparent;
-    color: rgb(94, 177, 245);
-    border: 2px solid rgb(94, 177, 245);
+.btton {
+  background-color: rgb(94, 177, 245);
+  color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 20px;
 }
 
-object{
-    width: 100%;
-    
+.btton:hover {
+  background-color: transparent;
+  color: rgb(94, 177, 245);
+  border: 2px solid rgb(94, 177, 245);
+  cursor: pointer;
 }
 
+object {
+  width: 100%;
+}
 
 /* Media query for mobile devices */
 
 @media only screen and (max-width: 600px) {
   .About-section {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
     width: 100vw;
-    height: 250vh;
-    /* overflow: hidden; */
-}
+    height: 100%;
+    padding-bottom: 50px;
+  }
+
+  .About-section .para {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 1.5;
+    width: 361px;
+  }
 
   .myimg {
-border-radius: 10%;
-   width: 100%;
+    border-radius: 10%;
+    width: 100%;
     height: 20%;
-}
+  }
 
-.btton{
+  .btton {
     margin: auto 100px;
-}
- 
-
-
+  }
 }
 
-
-@media screen and (min-width: 601px) and (max-width:800px) {
+@media screen and (min-width: 601px) and (max-width: 980px) {
   .About-section {
     display: block;
     width: 120vw;
     height: 130vh;
     /* overflow: hidden; */
-}
+  }
 
   .myimg {
-border-radius: 10%;
-width: 80%;
-margin: auto 100px;
-}
+    border-radius: 10%;
+    width: 80%;
+    height: 50%;
+    margin: auto 50px;
 
-.About-section .para{
+  }
+
+
+
+  .About-section .para {
     padding: 20px;
-}
+  }
 
-.btton{
+  .btton {
     margin: auto 356px;
-}
- 
-
-
+  }
 }

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MyPic from "../Images/Dheee.jpg";
+import MyPic from "../Images/Dhee.jpeg";
 import MyCv from "../Images/Mycv.pdf";
 import "../Styles/About.css";
 
@@ -16,14 +16,7 @@ const About = () => {
 
   return (
     <div className="About-section">
-      <img
-        className="myimg"
-        src={MyPic}
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
-        alt="img"
-      />
+     
       <div
         className="paragraphs"
         data-aos="flip-right"
@@ -55,6 +48,14 @@ const About = () => {
           View CV
         </button>
       </div>
+      <img
+        className="myimg"
+        src={MyPic}
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        alt="img"
+      />
     </div>
   );
 };

@@ -1,31 +1,24 @@
-.hero{
-    /* height:50vh; */
-    color: white;
-    /* background-color: blue; */
-    margin:80px auto 30%;
-    text-align: center;
-    /* margin:10% auto; */
-  
+.hero {
+  color: white;
+  text-align: center;
+  margin: 170px;
 }
 
-
-
-.text{
-    padding: 20px;
-    font-size: 25px;
-    line-height: 2;
-    /* background-color: red; */
-} 
-p{
-    font-size: 30px;
+.text {
+  padding: 20px;
+  font-size: 25px;
+  line-height: 2;
 }
-h1{
-    font-size: 70px;
+p {
+  font-size: 30px;
+}
+h1 {
+  font-size: 70px;
 }
 
-.role{
-    padding:30px;
-    font-size: 30px;
+.role {
+  padding: 30px;
+  font-size: 30px;
 }
 
 /* .buttons button {
@@ -45,81 +38,82 @@ h1{
     
 } */
 
-
-
 .anc {
-    color:rgb(94, 177, 245);
-    text-decoration: none;
-    background-color: transparent;
-    border: 2px solid rgb(94, 177, 245);
-    padding: 20px;
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 20px;
-    margin: 20px;
-
+  color: rgb(94, 177, 245);
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid rgb(94, 177, 245);
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+  margin: 20px;
 }
 
- .anc:hover{
-    cursor: pointer;
-    background-color: rgb(94, 177, 245);
-    color: white;
+.anc:hover {
+  cursor: pointer;
+  background-color: rgb(94, 177, 245);
+  color: white;
 }
 
-.anch{
-    background-color:rgb(94, 177, 245) ;
-    color: white;
-    border: none;
-    padding: 20px;
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 20px;
-    margin: 20px;
-    text-decoration: none;
+.anch {
+  background-color: rgb(94, 177, 245);
+  color: white;
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+  margin: 20px;
+  text-decoration: none;
 }
 
-.anch:hover{
-    background-color: transparent;
-    color: rgb(94, 177, 245);
-    border: 2px solid rgb(94, 177, 245);
+.anch:hover {
+  background-color: transparent;
+  color: rgb(94, 177, 245);
+  border: 2px solid rgb(94, 177, 245);
 }
 
-
-/* media Query */
 @media only screen and (max-width: 600px) {
-/* .hero{
-    line-height: 2;
-    } */
+  .hero {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.text{
+  .text {
     padding: 10px;
     font-size: 18px;
     line-height: 1.5;
     /* background-color: red; */
-} 
+  }
 
-p{
+  p {
     font-size: 22px;
     padding: 10px;
-}
+  }
 
-h1{
+  h1 {
     font-size: 30px;
-}
-.role{
+  }
+  .role {
     font-size: 20px;
     padding: 10px;
-}
-.buttons{
+  }
+  .buttons {
     padding: 15px;
-}
+    margin: auto;
+    width: 400px;
+  }
 
-.anc{
+  .anc {
     font-size: 16px;
-}
-.anch{
+    /* width: 50px; */
+  }
+  .anch {
     font-size: 16px;
     margin: 10px;
+    /* width: 30px; */
+  }
 }
-}
-
