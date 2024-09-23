@@ -1,4 +1,8 @@
+
+
+
 import React from "react";
+import Slider from "react-slick";
 import Udemy from "../Images/Udemy.png";
 import Zuri from "../Images/Zuri.png";
 import Sushi from "../Images/Sushi.png";
@@ -13,18 +17,27 @@ import SmartLend from "../Images/Smartlend.png";
 import "../Styles/Project.css";
 
 const Project = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2, // Number of projects to show at once
+    slidesToScroll: 1,
+    autoplay: true, // Optional: to make it slide automatically
+    autoplaySpeed: 2000,
+  };
+
   return (
     <>
       <div className="project-container">
         <h2>What I Have Done</h2>
-        <div className="cards">
+        <Slider {...settings} className="cards-slider">
+         
+
+     {/* <div className="cards"> */}
           {/* card 1 */}
-          <div
-            className="card1"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
+           <div
+            className="card1">
             <img src={Sushi} alt="sushi" />
             <div>
               <h2 className="title">Sushi Restaurant</h2>
@@ -52,12 +65,9 @@ const Project = () => {
             </div>
           </div>
 
-          {/* second card */}
           <div
             className="card2"
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+          
           >
             <img src={Zuri} alt="Zuri" />
             <div>
@@ -86,13 +96,9 @@ const Project = () => {
             </div>
           </div>
 
-          {/* third card */}
-
           <div
             className="card3"
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+         
           >
             <img src={Udemy} alt="udemy" />
             <div>
@@ -119,15 +125,11 @@ const Project = () => {
                 </a>
               </button>
             </div>
-            {/* </div> */}
           </div>
 
-          {/* Fourth card */}
           <div
             className="card4"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+        
           >
             <img src={Counter} alt="counter" />
             <div>
@@ -155,12 +157,10 @@ const Project = () => {
               </button>
             </div>
           </div>
-          {/* fifth card */}
+
           <div
             className="card5"
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+          
           >
             <img src={Todo} alt="todo" />
             <div>
@@ -182,13 +182,10 @@ const Project = () => {
               </button>
             </div>
           </div>
-          {/* sixth card */}
 
           <div
             className="card6"
-            data-aos="zoom-out-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+        
           >
             <img src={Calculator} alt="calc" />
             <div>
@@ -217,13 +214,9 @@ const Project = () => {
             </div>
           </div>
 
-          {/* seventh card */}
-
           <div
             className="card7"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+          
           >
             <img src={Form} alt="form" />
             <div>
@@ -251,13 +244,10 @@ const Project = () => {
               </button>
             </div>
           </div>
-          {/* eighth card */}
 
           <div
             className="card8"
-            data-aos="flip-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+          
           >
             <img src={ProfileSearch} alt="profile" />
             <div>
@@ -285,12 +275,10 @@ const Project = () => {
               </button>
             </div>
           </div>
-          {/* ninth card */}
+
           <div
             className="card9"
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+          
           >
             <img src={Starwars} alt="sw-movie" />
             <div>
@@ -318,7 +306,6 @@ const Project = () => {
               </button>
             </div>
           </div>
-          {/* tenth card */}
 
           <div
             className="card10"
@@ -350,12 +337,10 @@ const Project = () => {
               </button>
             </div>
           </div>
-          {/* eleventh card */}
+
           <div
             className="card11"
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+           
           >
             <img src={SmartLend} alt="smartlend" />
             <div>
@@ -381,8 +366,11 @@ const Project = () => {
               </button>
             </div>
           </div>
-        </div>
+
+          
+        </Slider>
       </div>
+      
     </>
   );
 };
